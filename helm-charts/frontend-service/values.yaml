@@ -1,0 +1,50 @@
+#global
+name: frontend
+namespace: frontend
+
+stable:
+  labels:
+    canary: "false"
+  image:
+    repository: preranamauryaa/microservice-frontendservice
+    tag: v1 #will be changed while deploying
+    pullPolicy: IfNotPresent
+canary:
+  labels:
+    canary: "true"
+  image:
+    repository: preranamauryaa/microservice-frontendservice
+    tag: v1 #will be changed while deploying
+    pullPolicy: IfNotPresent
+
+resources:
+  requests:
+    cpu: 100m
+    memory: 64Mi
+  limits:
+    cpu: 200m
+    memory: 128Mi
+
+ports:
+  http: 80
+  targetPort: 8080
+
+probes:
+  readiness:
+    initialDelaySeconds: 10
+    path: "/_healthz"
+  liveness:
+    initialDelaySeconds: 10
+    path: "/_healthz"
+
+env:
+  PORT: 8080
+  PRODUCT_CATALOG_SERVICE_ADDR: productcatalogservice.productcatalogservice.svc.cluster.local:3550
+  CURRENCY_SERVICE_ADDR: currencyservice.currencyservice.svc.cluster.local:7000
+  CART_SERVICE_ADDR: cartservice.cartservice.svc.cluster.local:7070
+  RECOMMENDATION_SERVICE_ADDR: recommendationservice.recommendationservice.svc.cluster.local:8080
+  SHIPPING_SERVICE_ADDR: shippingservice.shippingservice.svc.cluster.local:50051
+  CHECKOUT_SERVICE_ADDR: checkoutservice.checkoutservice.svc.cluster.local:5050
+  AD_SERVICE_ADDR: adservice.adservice.svc.cluster.local:9555
+  SHOPPING_ASSISTANT_SERVICE_ADDR: shoppingassistantservice.shoppingassistantservice.svc.cluster.local:80
+  ENABLE_PROFILER: "0"
