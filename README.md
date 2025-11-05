@@ -4,7 +4,7 @@
 This project involved designing, deploying, and managing a highly scalable microservices-based application architecture on Amazon Elastic Kubernetes Service (EKS). The architecture consists of a total of 11 microservices, including one custom-built Python Flask microservice connected via gRPC to an existing microservice from a Google-provided repository. The project focused on implementing secure communication, deployment automation, and observability features to create a production-ready system.
 ## Project Architecture
 
-![Project Architecture](https://github.com/Prerana-Mauryaa/Microservices-Deployment-Architecture/blob/master/images/diagrams/Project-overview.png)
+![Project Architecture](https://github.com/Mohanrao1231/Microservices-Deployment-Architecture/blob/main/images/diagrams/Project-overview.png)
 
 ## Implementation 
 #### Microservice  Analysis 
