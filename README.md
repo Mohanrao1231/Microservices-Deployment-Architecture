@@ -264,7 +264,7 @@ This pipeline ensures flexibility for controlled Canary deployments and rollback
 *  **`Build and Push Docker Image`:** Builds and pushes the Docker image to Docker Hub.  
 * **`Install Helm Chart`:** Deploys or upgrades Helm charts with the provided image tag.  
 
-![Microservice Architecture](https://github.com/Prerana-Mauryaa/Microservices-Deployment-Architecture/blob/master/images/diagrams/normal_deployment.png)
+![Microservice Architecture](https://github.com/Mohanrao1231/Microservices-Deployment-Architecture/blob/main/images/diagrams/normal_deployment.png)
 
 ## Deploy the application
 Deploy the application on eks cluster by building the jenkins pipeline jobs.
