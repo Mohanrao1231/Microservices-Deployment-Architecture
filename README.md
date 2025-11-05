@@ -251,7 +251,7 @@ This pipeline ensures flexibility for controlled Canary deployments and rollback
 * **`Clone Repo`:** Fetches the required configurations from the repository.  
 * **`Traffic Splitting`:** Deploys and configures traffic weights for stable and canary releases.  
 
-![Microservice Architecture](https://github.com/Prerana-Mauryaa/Microservices-Deployment-Architecture/blob/master/images/diagrams/traffic_splitting.png)
+![Microservice Architecture](https://github.com/Mohanrao1231/Microservices-Deployment-Architecture/blob/main/images/diagrams/traffic_splitting.png)
 
 ### Normal Deployment Pipeline
 
