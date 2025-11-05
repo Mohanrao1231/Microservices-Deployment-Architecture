@@ -273,7 +273,7 @@ Deploy the application on eks cluster by building the jenkins pipeline jobs.
 ![Microservice Architecture](https://github.com/Mohanrao1231/Microservices-Deployment-Architecture/blob/main/images/screenshots/frontend.png)
 
 ### Business
-![Microservice Architecture](https://github.com/Prerana-Mauryaa/Microservices-Deployment-Architecture/blob/master/images/screenshots/business.png)
+![Microservice Architecture](https://github.com/Mohanrao1231/Microservices-Deployment-Architecture/blob/main/images/screenshots/business.png)
 
 # Setting Up Monitoring with Prometheus and Grafana
 To effectively monitor and visualize application performance and infrastructure health, I have configured Prometheus and Grafana using the Prometheus Operator deployed via Helm. Below are the steps I followed for setting up the monitoring stack and creating insightful dashboards:
