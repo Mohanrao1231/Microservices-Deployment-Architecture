@@ -349,5 +349,5 @@ Useful for understanding the overall health of the Kubernetes environment.
 Visualizes traffic flow, service latencies, and error rates within the Istio mesh.
 Provides insights into service-to-service communication and mesh performance.
 
-![Microservice Architecture](https://github.com/Prerana-Mauryaa/Microservices-Deployment-Architecture/blob/master/images/screenshots/istio-servicemesh.png)
+![Microservice Architecture](https://github.com/Mohanrao1231/Microservices-Deployment-Architecture/blob/main/images/screenshots/istio-servicemesh.png)
 
