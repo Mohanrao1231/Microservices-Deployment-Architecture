@@ -235,7 +235,7 @@ I have created a shell script located at `setup-scripts/istio-setup.sh` that aut
 * **`Install Business-Service Helm Chart`:** Deploys or upgrades the stable service and canary configurations if applicable.  
 * **`Rollback Release`:** Rolls back to the previous Helm revision when rollback is triggered.  
 
-![Microservice Architecture](https://github.com/Prerana-Mauryaa/Microservices-Deployment-Architecture/blob/master/images/diagrams/canary_deployment.png)
+![Microservice Architecture](https://github.com/Mohanrao1231/Microservices-Deployment-Architecture/blob/main/images/diagrams/canary_deployment.png)
 
 
 This pipeline ensures flexibility for controlled Canary deployments and rollback handling.
