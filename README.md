@@ -53,7 +53,7 @@ I have added a new microservice named **Business** in python flask, which allows
 | AdService                | Java            | Displays context-based text ads.                                                |
 | LoadGenerator            | Python/Locust   | Simulates user shopping behaviors for performance testing.                      |
 
-![Microservice Architecture](https://github.com/Prerana-Mauryaa/Microservices-Deployment-Architecture/blob/master/images/diagrams/Microservice_Arc.png)
+![Microservice Architecture](https://github.com/Mohanrao1231/Microservices-Deployment-Architecture/blob/main/images/diagrams/Microservice_Arc.png)
 
 
 ## How I Developed the Business Microservice
