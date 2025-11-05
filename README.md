@@ -342,7 +342,7 @@ Helps identify resource bottlenecks at the node level.
 Tracks pod status, deployments, and resource usage across the cluster.
 Useful for understanding the overall health of the Kubernetes environment.
 
-![Microservice Architecture](https://github.com/Prerana-Mauryaa/Microservices-Deployment-Architecture/blob/master/images/screenshots/k8s.png)
+![Microservice Architecture](https://github.com/Mohanrao1231/Microservices-Deployment-Architecture/blob/main/images/screenshots/k8s.png)
 
 * **Istio Service Mesh Monitoring Dashboard**:
 
