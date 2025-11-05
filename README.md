@@ -270,7 +270,7 @@ This pipeline ensures flexibility for controlled Canary deployments and rollback
 Deploy the application on eks cluster by building the jenkins pipeline jobs.
 
 ### Frontend
-![Microservice Architecture](https://github.com/Prerana-Mauryaa/Microservices-Deployment-Architecture/blob/master/images/screenshots/frontend.png)
+![Microservice Architecture](https://github.com/Mohanrao1231/Microservices-Deployment-Architecture/blob/main/images/screenshots/frontend.png)
 
 ### Business
 ![Microservice Architecture](https://github.com/Prerana-Mauryaa/Microservices-Deployment-Architecture/blob/master/images/screenshots/business.png)
